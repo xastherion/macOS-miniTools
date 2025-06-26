@@ -1,0 +1,12 @@
+
+# LEER ARCHIVO
+with open('test.dat','r') as archivo:
+    leer_data= archivo.read()
+    print(leer_data)
+archivo.closed
+'''
+# ESCRIBIR ARCHIVO
+with open('test.dat','w') as archivo:
+    archivo.write('yapooooo')
+archivo.closed
+'''
